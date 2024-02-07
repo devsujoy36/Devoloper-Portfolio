@@ -227,7 +227,8 @@ margin-top: 0;
     margin-top: 100px;
     padding: 130px 200px;
     background-color:#fffaf7;
-    
+    justify-content: space-around;
+
 }
 
 
