@@ -182,6 +182,11 @@ main section{
     gap: 20px;
 }
 .resume-column-items{
-    border-bottom: 1px solid rgb(223, 211, 211);
+    
     padding-right: 110px ;
+}
+.resume-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
