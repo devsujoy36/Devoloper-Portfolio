@@ -101,7 +101,10 @@ nav a {
 }
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about common styles  */
 .section-title{
@@ -124,4 +127,20 @@ nav a {
     padding: 130px;
     background-color: #FFF8F3;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.about-info{
+text-align: center;
+}
+.info-title{
+
+}
+.info-description{
+
 }
