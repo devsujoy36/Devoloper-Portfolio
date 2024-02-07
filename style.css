@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* nav related style  */
 .primary-color {
     color: #FD6E0A;
 }
@@ -18,7 +19,7 @@ body {
     color: white;
     border-radius: 5px;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
@@ -46,18 +47,28 @@ nav a {
     color: gray
 }
 
-.web-title {
+/* header related style  */
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-content {}
+
+.banner-title {
     color: black;
     font-size: 45px;
     font-weight: 800;
 
 }
 
-.header{
-    background-color: #FFF8F3;
-
-}
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
+.banner-profile-pic {
+    width: 500px;
 }
