@@ -181,14 +181,39 @@ main section{
 .resume-container{
     display: flex;
     padding: 30px 0px;;
-    gap: 20px;
+    gap: 50px;
 }
-.resume-column-items{
-    
-    padding-right: 110px ;
+.resume-column{
+
 }
-.resume-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item{
+
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.resume-item-institute{
+color: #757575;
+margin-bottom: 20px;
+margin-top: 0;
+}
+
+.resume-item-description{
+    color: #757575;
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
