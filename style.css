@@ -218,10 +218,38 @@ margin-top: 0;
     margin-top: 50px;
 }
 
+
+
 /* footer styles */
-footer{
+.footer{
     display: flex;
-    color: #FFF8F3;
-    padding: 130px 200px;
+    color:#757575;
     margin-top: 100px;
+    padding: 130px 200px;
+    background-color:#fffaf7;
+    
+}
+
+
+.footer-column{
+    width: 50%;
+
+}
+
+.contact input[type="text"] , .contact input[type="email"] , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+} 
+
+.social-links a{
+    margin-right: 24px;
+}
+.contact {
+
 }
